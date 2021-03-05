@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* header */
+
+.header_wrap {
+	width: 100%;
+	margin: 0 auto;
+	color: whitesmoke;
+}
+
+header {
+	height: 50px;
+	background: #385E72;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+
+.logo {
+	width: 80px;
+	padding: 0 0 0 30px;
+	float: left;
+	line-height: 70px;
+}
+
+.logo_header {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Monsterrat', sans-serif;
+	color: whitesmoke;
+	letter-spacing: 5px;
+}
+
+nav {
+	float: right;
+	line-height: 50px;
+}
+
+.header_text{
+	text-decoration: none;
+	font-family: 'Monsterrat', sans-serif;
+	letter-spacing: 4.5px;
+	font-size: 15px;
+	margin: 0 10px;
+	color: whitesmoke;
+}
+
+/* home page */
+
+.banner_area {
+	position: fixed;
+	background-position: center center;
+}
+
+.home_pic {
+	height: 400px;
+}
+
+.title {
+    padding: 150px 50px 0 50px;
+	font-size: 50px;
+	font-family: 'Staatliches';
+	color: whitesmoke;
+    position: absolute;
+}
+
+.title_two {
+    padding: 320px 10px 0px 30px;
+	font-size: 40px;
+	font-family: 'Staatliches';
+	color: whitesmoke;
+    position: absolute;
+}
+
+.content_area {
+	width: 100%;
+	position: relative;
+	top: 400px;
+	background: #6AABD2;
+	height: auto;
+	text-align: center;
+}
+
+.sub_title {
+	font-family: 'Staatliches';
+	font-weight: 800;
+	letter-spacing: 4.5px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 80px;
+}
+
+.home_description {
+	padding: 10% 20px 10% 20px;
+	font-family: 'Staatliches';
+	line-height: 30px;
+    font-size: 25px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+@media (min-width: 1100px) {
+	.banner_area {
+		width: 100%;
+		height: 600px;
+		position: fixed;
+		background-position: center center;
+	}
+
+	.home_description {
+		padding: 4% 20px 4% 20px;
+		font-family: 'Staatliches';
+		line-height: 30px;
+		font-size: 45px;
+		text-align: center;
+	}
+	
+	.home_pic {
+		width: 100%;
+		height: auto;
+		min-width: 1500px;
+	}
+
+	.title {
+		padding: 150px 50px;
+		font-size: 100px;
+		font-family: 'Staatliches';
+		color: whitesmoke;
+		position: absolute;
+	}
+
+	.title_two {
+		padding: 520px 0px 0px 650px;
+		font-size: 70px;
+		font-family: 'Staatliches';
+		color: whitesmoke;
+		position: absolute;
+	}
+
+	.content_area {
+		width: 100%;
+		position: relative;
+		top: 700px;
+		background: #6AABD2;
+		height: auto;
+	}
+}
+
+/* homepage text */
+
+li {
+	padding: 10px;
+}
+
+.about_title {
+	font-family: 'Staatliches';
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.education_home {
+	list-style: none;
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 20px;
+	color: black;
+	background: #B7CFDC;
+	float: left;
+	top: 400px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 50px 0 50px 0;
+}
+
+.education_home_text {
+	margin-left: 50px;
+}
+
+.skills_home {
+	list-style: none;
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 20px;
+	color: black;
+	background: #D9E4EC;
+	float: left;
+	top: 400px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 50px 0 50px 0;
+}
+
+.skills_home_child {
+	margin-left: 50px;
+}
+
+.skills_pic {
+	max-width: 0;
+}
+
+.work_experience_home {
+	list-style: none;
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 20px;
+	color: black;
+	background: #B7CFDC;
+	float: left;
+	top: 400px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 50px 0 50px 0;
+}
+
+.work_experience_text {
+	margin-left: 50px;
+}
+
+@media (min-width: 1100px) {
+	.education_home {
+		list-style: none;
+		font-family: 'Monsterrat', sans-serif;
+		font-size: 30px;
+		color: black;
+		background: #B7CFDC;
+		float: left;
+		top: 700px;
+		width: 100%;
+		height: auto;
+		position: relative;
+		padding: 50px 0 50px 0;
+	}
+
+	.skills_home {
+		list-style: none;
+		font-family: 'Monsterrat', sans-serif;
+		font-size: 30px;
+		color: black;
+		background: #D9E4EC;
+		float: left;
+		top: 700px;
+		width: 100%;
+		height: auto;
+		position: relative;
+		padding: 50px 0 50px 0;
+	}
+	
+	.work_experience_home {
+		list-style: none;
+		font-family: 'Monsterrat', sans-serif;
+		font-size: 30px;
+		color: black;
+		background: #B7CFDC;
+		float: left;
+		top: 700px;
+		width: 100%;
+		height: auto;
+		position: relative;
+		padding: 50px 0 50px 0;
+	}
+
+	.skills_home_child {
+		float: left;
+		padding: 50px;
+		padding: 50px 0 50px 0;
+	}
+
+	.skills_pic {
+		max-width: 500px;
+	}
+}
+
+/* projects page */
+
+a {
+	text-decoration: none;
+}
+
+.projects_pic {
+	width: 100%;
+}
+
+.menu_projects_parent {
+    max-width: 1300px;
+    margin: 0px auto;
+    font-family: 'Montserrat';
+	font-size: 25px;
+	position: relative;
+	top: 100px;
+	padding: 50px;
+}
+
+.menu_projects_child {
+    flex: 1;
+    background-color: #D9E4EC;
+	color: black;
+    margin: 20px;
+    padding: 80px 7% 80px 0;
+    padding-left: 7%;
+    box-sizing: border-box;
+    flex-basis: 25%;
+	text-align: center;
+}
+
+@media (min-width: 1100px) { 
+	.menu_projects_parent {
+		max-width: 1300px;
+		margin: 0px auto;
+		font-family: 'Montserrat';
+		font-size: 25px;
+		position: relative;
+		top: 100px;
+		padding: 50px;
+	}
+
+	.projects_pic {
+		width: 100%;
+	}
+}
+
+/* calendar project */
+
+.banner_area_calendar {
+	position: fixed;
+	background-position: center center;
+	top: 40px;
+}
+
+.content_area_calendar {
+	width: 100%;
+	position: relative;
+	top: 240px;
+	background: #6AABD2;
+	height: auto;
+	text-align: center;
+}
+
+.description_calendar {
+    width: 100%;
+	max-width: 1600px;
+	background-color:#B7CFDC;
+    color: #385E72;
+    margin: 90px auto;
+	padding: 0 0px 0 0px;
+	position: relative;
+	top: 200px;
+}
+
+.project_description {
+    font-family: 'Staatliches';
+    font-size: 45px;
+    padding-top: 60px;
+	padding-left: 20px;
+}
+
+.project_description_text {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+.steps_description {
+    font-size: 23px;
+    padding: 50px 20px 80px 20px;
+}
+
+@media (min-width: 1100px) { 
+	.banner_area_calendar {
+		width: 100%;
+		height: 600px;
+		position: fixed;
+		background-position: center center;
+	}
+
+	.content_area_calendar {
+		width: 100%;
+		position: relative;
+		top: 700px;
+		background: #6AABD2;
+		height: auto;
+		text-align: center;
+	}
+
+	.description_calendar {
+		width: 100%;
+		max-width: 1600px;
+		background-color:#B7CFDC;
+		color: #385E72;
+		margin: 90px auto;
+		padding: 0 0px 0 60px;
+		position: relative;
+		top: 700px;
+	}
+	
+	.project_description {
+		font-family: 'Staatliches';
+		font-size: 45px;
+		padding-top: 60px;
+	}
+	
+	.project_description_text {
+		font-family: 'Montserrat';
+		font-size: 25px;
+		margin: 50px auto;
+	}
+	
+	.steps_description {
+		font-size: 23px;
+		padding: 50px 20px 80px 20px;
+	}
+}
+
+/* poster projects */
+
+.content_area_projects {
+	width: 100%;
+	position: relative;
+	top: 100px;
+	background: #6AABD2;
+	height: auto;
+	text-align: center;
+}
+
+.pic_posters {
+    max-width: 1200px;
+    display: grid;
+    margin: 10px auto 10px auto;
+	padding: 50px;
+	padding-left: 10px;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+	position: relative;
+	top: 140px;
+	background-color: #B7CFDC;
+}
+
+.posters_description {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.posters_img {
+    max-width: 100%;
+}
+
+@media (min-width: 1100px) { 
+	.content_area_projects {
+		width: 100%;
+		position: relative;
+		top: 100px;
+		background: #6AABD2;
+		height: auto;
+		text-align: center;
+	}
+	
+	.pic_posters {
+		max-width: 1200px;
+		display: grid;
+		margin: 100px auto 100px auto;
+		padding: 200px;
+		grid-template-columns: 50% 50%;
+		grid-column-gap: 2em;
+		grid-row-gap: 2em;
+		position: relative;
+		top: 80px;
+		background-color: #B7CFDC;
+	}
+	
+	.posters_img {
+		max-width: 100%;
+	}
+}
+
+/* logos project */
+
+.description_logos {
+    max-width: 1000px;
+    color: whitesmoke;
+    margin: 10px auto;
+	position: relative;
+	text-align: center;
+}
+
+.project_description_logos {
+	font-family: 'Staatliches';
+	font-size: 45px;
+	padding-top: 20px;
+}
+
+.project_description_text_logos {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    padding: 1em 3em 0 3em;
+}
+
+.pic_logos {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+.logos_pic {
+    max-width: 100%;
+	padding-bottom: 50px;
+}
+
+@media (min-width: 1100px) { 
+	.description_logos {
+		max-width: 1000px;
+		color: whitesmoke;
+		margin: 30px auto;
+		position: relative;
+		text-align: center;
+	}
+
+	.project_description_logos {
+		font-family: 'Staatliches';
+		font-size: 45px;
+		padding-top: 60px;
+		padding-left: 20px;
+	}
+	
+	.project_description_text_logos {
+		font-family: 'Montserrat';
+		font-size: 25px;
+		padding: 1em 3em 0 3em;
+	}
+	
+	.pic_logos {
+		max-width: 1000px;
+		margin: 20px auto;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-column-gap: 2em;
+		grid-row-gap: 2em;
+	}
+	
+	.logos_pic {
+		max-width: 100%;
+		padding-bottom: 50px;
+	}
+}
+
+/* University Page Projects */
+
+.description_university {
+    max-width: 1000px;
+    color: #385E72;
+	background-color: #B7CFDC;
+    margin: 60px 20px;
+	padding: 20px 40px 50px 10px;
+	position: relative;
+	top: 100px;
+}
+
+.project_description_text {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 3em 3em 0 3em;
+}
+
+.uni_description_text {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 1em 3em 0 3em;
+}
+
+.pic_uni {
+    max-width: 1200px;
+    display: grid;
+    margin: 30px auto 5px auto;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+.uni_img {
+    max-width: 100%;
+}
+
+@media (min-width: 1100px) { 
+	.description_university {
+		max-width: 1000px;
+		color: #385E72;
+		background-color: #B7CFDC;
+		margin: 60px auto;
+		padding: 20px 140px 50px 100px;
+		position: relative;
+		top: 100px;
+	}
+	
+	.project_description_text {
+		font-family: 'Montserrat';
+		font-size: 25px;
+		padding: 3em 3em 0 3em;
+	}
+	
+	.uni_description_text {
+		font-family: 'Montserrat';
+		font-size: 25px;
+		padding: 1em 3em 0 3em;
+	}
+
+a {
+	text-decoration: none;
+}
+
+.content_area_ux {
+	width: 100%;
+	position: relative;
+	top: 100px;
+	background: #6AABD2;
+	height: auto;
+	text-align: center;
+}
+
+.menu_ux_parent {
+    max-width: 1300px;
+    margin: 0px auto;
+    font-family: 'Montserrat';
+	font-size: 25px;
+	position: relative;
+	top: 100px;
+	padding: 50px;
+}
+
+.menu_ux_child {
+    flex: 1;
+    background-color: #D9E4EC;
+	color: black;
+    margin: 20px;
+    padding: 80px 7% 80px 0;
+    padding-left: 7%;
+    box-sizing: border-box;
+    flex-basis: 25%;
+	text-align: center;
+}
+
+.ux_imgs {
+	width: 0;
+}
+
+@media (min-width: 1100px) { 
+	.menu_ux_parent {
+		max-width: 1300px;
+		margin: 0px auto;
+		font-family: 'Montserrat';
+		font-size: 25px;
+		position: relative;
+		top: 100px;
+		padding: 50px;
+	}
+
+	.projects_pic {
+		width: 100%;
+	}
+
+	.ux_img {
+		align-items: center;
+		max-width: 500px;
+	}
+
+	.ux_imgs {
+		max-width: 600px;
+	}
+}
+
+
+
+/* Contact Page */
+
+.menu_contact_parent {
+    max-width: 1300px;
+    margin: 0px auto;
+    font-family: 'Montserrat';
+	font-size: 20px;
+	position: relative;
+	top: 100px;
+	padding: 50px;
+}
+
+.menu_contact_child {
+    flex: 1;
+    background-color: #D9E4EC;
+	color: black;
+    margin: 20px;
+    padding: 80px 7% 80px 0;
+    padding-left: 7%;
+    box-sizing: border-box;
+    flex-basis: 25%;
+	text-align: center;
+}
+
+@media (min-width: 1100px) { 
+	.menu_contact_parent {
+		max-width: 1300px;
+		margin: 0px auto;
+		font-family: 'Montserrat';
+		font-size: 25px;
+		position: relative;
+		top: 100px;
+		padding: 50px;
+	}
+}
